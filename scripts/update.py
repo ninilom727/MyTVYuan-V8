@@ -3,26 +3,32 @@
 
 """
 MyTVYuan V8
-TVBox 自动配置生成器
+
+自动更新主程序
 
 流程:
 
 sources.txt
       |
-      v
-抓取远程配置
+      ↓
+fetch json
       |
-      v
-解析 JSON
+      ↓
+merge
       |
-      v
-过滤无效源
+      ↓
+speed test
       |
-      v
-合并
+      ↓
+clean
       |
-      v
-生成:
+      ↓
+rank
+      |
+      ↓
+generate
+
+输出:
 
 tvbox.json
 tvbox_full.json
@@ -32,10 +38,13 @@ tvbox_multi.json
 
 
 import os
+import sys
 import json
 import time
 import requests
 
+
+# 当前目录加入路径
 
 BASE_DIR = os.path.dirname(
     os.path.dirname(
@@ -44,59 +53,98 @@ BASE_DIR = os.path.dirname(
 )
 
 
-CONFIG_DIR = os.path.join(
+SCRIPT_DIR = os.path.join(
+    BASE_DIR,
+    "scripts"
+)
+
+
+sys.path.append(
+    SCRIPT_DIR
+)
+
+
+
+# 导入模块
+
+try:
+
+    from source_speed import add_speed
+
+    from source_rank import rank
+
+    from source_clean import clean
+
+    from generate_config import generate
+
+
+except Exception as e:
+
+    print(
+        "模块加载失败:",
+        e
+    )
+
+    sys.exit(1)
+
+
+
+CONFIG_DIR=os.path.join(
     BASE_DIR,
     "config"
 )
 
 
-OUTPUT_DIR = os.path.join(
-    BASE_DIR,
-    "output"
-)
 
-
-SOURCE_FILE = os.path.join(
+SOURCE_FILE=os.path.join(
     CONFIG_DIR,
     "sources.txt"
 )
 
 
 
-TIMEOUT = 15
+TIMEOUT=15
 
 
 
-HEADERS = {
+HEADERS={
 
     "User-Agent":
+
     "Mozilla/5.0 MyTVYuan-V8"
 
 }
 
 
 
-# -------------------------
-# 初始化目录
-# -------------------------
+
+# =========================
+# 初始化
+# =========================
 
 
 def init():
 
 
-    if not os.path.exists(
-        OUTPUT_DIR
-    ):
+    output=os.path.join(
 
-        os.makedirs(
-            OUTPUT_DIR
-        )
+        BASE_DIR,
+
+        "output"
+
+    )
+
+
+    if not os.path.exists(output):
+
+        os.makedirs(output)
 
 
 
-# -------------------------
+
+# =========================
 # 读取源列表
-# -------------------------
+# =========================
 
 
 def load_sources():
@@ -106,8 +154,9 @@ def load_sources():
         SOURCE_FILE
     ):
 
+
         print(
-            "不存在:",
+            "缺少:",
             SOURCE_FILE
         )
 
@@ -115,13 +164,17 @@ def load_sources():
 
 
 
-    result=[]
+    urls=[]
 
 
     with open(
+
         SOURCE_FILE,
+
         "r",
+
         encoding="utf-8"
+
     ) as f:
 
 
@@ -131,21 +184,32 @@ def load_sources():
             url=line.strip()
 
 
-            if url and not url.startswith("#"):
 
+            if not url:
 
-                result.append(url)
-
-
-
-    return result
+                continue
 
 
 
+            if url.startswith("#"):
 
-# -------------------------
-# 下载配置
-# -------------------------
+                continue
+
+
+
+            urls.append(url)
+
+
+
+    return urls
+
+
+
+
+
+# =========================
+# 请求JSON
+# =========================
 
 
 def fetch_json(url):
@@ -160,6 +224,7 @@ def fetch_json(url):
         )
 
 
+
         r=requests.get(
 
             url,
@@ -171,11 +236,16 @@ def fetch_json(url):
         )
 
 
-        r.encoding="utf-8"
-
-
 
         if r.status_code != 200:
+
+            print(
+
+                "HTTP",
+
+                r.status_code
+
+            )
 
             return None
 
@@ -189,8 +259,11 @@ def fetch_json(url):
 
 
         print(
+
             "失败:",
+
             e
+
         )
 
         return None
@@ -199,15 +272,17 @@ def fetch_json(url):
 
 
 
-# -------------------------
+
+# =========================
 # 合并配置
-# -------------------------
+# =========================
 
 
-def merge_config(items):
+def merge(configs):
 
 
     result={
+
 
         "spider":"",
 
@@ -221,11 +296,11 @@ def merge_config(items):
 
 
 
-    for data in items:
+    for cfg in configs:
 
 
         if not isinstance(
-            data,
+            cfg,
             dict
         ):
 
@@ -233,11 +308,15 @@ def merge_config(items):
 
 
 
-        if data.get(
+        spider=cfg.get(
             "spider"
-        ):
+        )
 
-            result["spider"]=data["spider"]
+
+        if spider:
+
+            result["spider"]=spider
+
 
 
 
@@ -252,8 +331,10 @@ def merge_config(items):
         ]:
 
 
-            value=data.get(key)
-
+            value=cfg.get(
+                key,
+                []
+            )
 
 
             if isinstance(
@@ -274,12 +355,12 @@ def merge_config(items):
 
 
 
-# -------------------------
-# 清洗重复
-# -------------------------
+# =========================
+# 去重基础处理
+# =========================
 
 
-def clean(items):
+def duplicate_clean(items):
 
 
     result=[]
@@ -306,14 +387,12 @@ def clean(items):
         )
 
 
-        name=item.get(
-            "name"
-        )
-
 
         if not key:
 
-            key=name
+            key=item.get(
+                "name"
+            )
 
 
 
@@ -340,75 +419,22 @@ def clean(items):
 
 
 
-# -------------------------
-# 保存文件
-# -------------------------
-
-
-def save(name,data):
-
-
-    path=os.path.join(
-
-        OUTPUT_DIR,
-
-        name
-
-    )
-
-
-    with open(
-
-        path,
-
-        "w",
-
-        encoding="utf-8"
-
-    ) as f:
-
-
-        json.dump(
-
-            data,
-
-            f,
-
-            ensure_ascii=False,
-
-            indent=2
-
-        )
-
-
-
-    print(
-
-        "生成:",
-
-        path
-
-    )
-
-
-
-
-
-
-# -------------------------
+# =========================
 # 主程序
-# -------------------------
+# =========================
 
 
 def main():
 
 
+    print("\n")
+
     print(
-        "="*50
+        "="*60
     )
 
     print(
-        "MyTVYuan V8 Start"
+        " MyTVYuan V8 Update Start "
     )
 
     print(
@@ -418,7 +444,7 @@ def main():
     )
 
     print(
-        "="*50
+        "="*60
     )
 
 
@@ -433,7 +459,7 @@ def main():
 
     print(
 
-        "源数量:",
+        "配置源数量:",
 
         len(urls)
 
@@ -448,7 +474,9 @@ def main():
     for url in urls:
 
 
-        data=fetch_json(url)
+        data=fetch_json(
+            url
+        )
 
 
 
@@ -463,7 +491,7 @@ def main():
 
     print(
 
-        "有效配置:",
+        "成功获取:",
 
         len(configs)
 
@@ -471,87 +499,189 @@ def main():
 
 
 
-    merged=merge_config(
+    if not configs:
+
+
+        print(
+            "没有有效配置"
+        )
+
+        return
+
+
+
+    # 合并
+
+
+    merged=merge(
         configs
     )
 
 
 
-    merged["sites"]=clean(
+    print(
+
+        "原始站点:",
+
+        len(
+            merged["sites"]
+        )
+
+    )
+
+
+
+    # 基础去重
+
+
+    merged["sites"]=duplicate_clean(
         merged["sites"]
     )
 
 
-
-    merged["parses"]=clean(
+    merged["parses"]=duplicate_clean(
         merged["parses"]
     )
 
 
-
-    merged["lives"]=clean(
+    merged["lives"]=duplicate_clean(
         merged["lives"]
     )
 
 
 
-    # 主配置
+    print(
 
-    save(
+        "去重后:",
 
-        "tvbox.json",
-
-        merged
-
-    )
-
-
-
-    # 全量
-
-    save(
-
-        "tvbox_full.json",
-
-        merged
+        len(
+            merged["sites"]
+        )
 
     )
 
 
 
-    # 多仓
+    # =====================
+    # 播放测速
+    # =====================
 
-    save(
 
-        "tvbox_multi.json",
+    try:
 
-        {
 
-            "configs":
+        merged["sites"]=add_speed(
 
-            [
+            merged["sites"]
 
-                {
+        )
 
-                "name":
-                "MyTVYuan V8",
 
-                "url":
-                "https://raw.githubusercontent.com/"
+    except Exception as e:
 
-                }
 
-            ]
+        print(
 
-        }
+            "测速失败:",
 
+            e
+
+        )
+
+
+
+
+
+    # =====================
+    # 清洗
+    # =====================
+
+
+    try:
+
+
+        merged["sites"]=clean(
+
+            merged["sites"]
+
+        )
+
+
+    except Exception as e:
+
+
+        print(
+
+            "清洗失败:",
+
+            e
+
+        )
+
+
+
+
+
+    # =====================
+    # 排序
+    # =====================
+
+
+    try:
+
+
+        merged["sites"]=rank(
+
+            merged["sites"]
+
+        )
+
+
+    except Exception as e:
+
+
+        print(
+
+            "排序失败:",
+
+            e
+
+        )
+
+
+
+
+
+    # =====================
+    # 输出
+    # =====================
+
+
+    generate(
+        merged
     )
 
 
 
     print(
-        "更新完成"
+
+        "="*60
+
     )
+
+    print(
+
+        " MyTVYuan V8 更新完成 "
+
+    )
+
+    print(
+
+        "="*60
+
+    )
+
+
 
 
 
