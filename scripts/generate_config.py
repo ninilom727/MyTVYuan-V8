@@ -94,7 +94,7 @@ def generate(data):
             "MyTVYuan",
 
             "url":
-            "tvbox.json"
+            "https://raw.githubusercontent.com/ninilom727/MyTVYuan-V8/main/output/tvbox.json"
 
             }
 
