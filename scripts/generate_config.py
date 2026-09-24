@@ -84,22 +84,13 @@ def generate(data):
 
         "tvbox_multi.json",
 
-        {
-
-        "urls":[
-
-            {
-
-            "name":
-            "MyTVYuan",
-
-            "url":
-            "https://raw.githubusercontent.com/ninilom727/MyTVYuan-V8/main/output/tvbox.json"
-
-            }
-
-        ]
-
-        }
+       {
+  "urls": [
+    {
+      "name": "MyTVYuan",
+      "url": "https://raw.githubusercontent.com/ninilom727/MyTVYuan-V8/main/output/tvbox.json"
+    }
+  ]
+}
 
     )
