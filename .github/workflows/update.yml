@@ -1,1 +1,87 @@
-Commit changes
+name: MyTVYuan V8 Auto Update
+
+on:
+
+  # 每小时自动运行
+  schedule:
+    - cron: "0 * * * *"
+
+  # 手动运行按钮
+  workflow_dispatch:
+
+
+permissions:
+
+  contents: write
+
+
+jobs:
+
+  update:
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+
+      # 拉取仓库
+
+      - name: Checkout Repository
+
+        uses: actions/checkout@v4
+
+
+
+      # 安装 Python
+
+      - name: Setup Python
+
+        uses: actions/setup-python@v5
+
+        with:
+
+          python-version: "3.11"
+
+
+
+      # 安装依赖
+
+      - name: Install Requirements
+
+        run: |
+
+          python -m pip install --upgrade pip
+
+          pip install -r requirements.txt
+
+
+
+      # 执行更新程序
+
+      - name: Run MyTVYuan Update
+
+        run: |
+
+          python scripts/update.py
+
+
+
+      # 提交生成文件
+
+      - name: Commit Update Files
+
+        run: |
+
+          git config --global user.name "github-actions"
+
+          git config --global user.email "github-actions@github.com"
+
+
+          git add .
+
+
+          git commit -m "MyTVYuan V8 automatic update" || echo "No changes"
+
+
+          git push
