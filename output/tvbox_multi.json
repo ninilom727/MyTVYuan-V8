@@ -1,8 +1,8 @@
 {
-  "configs": [
+  "urls": [
     {
-      "name": "MyTVYuan V8",
-      "url": "https://raw.githubusercontent.com/"
+      "name": "MyTVYuan",
+      "url": "tvbox.json"
     }
   ]
 }
