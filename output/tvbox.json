@@ -35,7 +35,7 @@
         "海外动漫",
         "影视解说"
       ],
-      "speed": 15.0
+      "speed": 18.32
     },
     {
       "searchable": 1,
@@ -45,7 +45,7 @@
       "key": "360",
       "type": 1,
       "name": "🍏360",
-      "speed": 13.59
+      "speed": 16.98
     },
     {
       "key": "360资源",
@@ -54,7 +54,7 @@
       "api": "https://360zy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 7.49
+      "speed": 8.71
     },
     {
       "key": "索尼-闪电",
@@ -64,7 +64,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "speed": 16.59
+      "speed": 17.99
     },
     {
       "key": "csp_xml_索尼资源",
@@ -74,15 +74,7 @@
       "playUrl": "",
       "searchable": 0,
       "quickSearch": 1,
-      "speed": 51.93
-    },
-    {
-      "key": "drpy_js_金牌",
-      "name": "金牌影视[js]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/%E9%87%91%E7%89%8C%E5%BD%B1%E8%A7%86.js",
-      "speed": 370.61
+      "speed": 17.89
     },
     {
       "key": "路漫漫",
@@ -90,18 +82,27 @@
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
       "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/路漫漫.png",
-      "speed": 370.46
+      "speed": 468.72
     },
     {
-      "key": "钛金影视",
-      "name": "钛金影视",
+      "key": "drpy_js_金牌",
+      "name": "金牌影视[js]",
       "type": 3,
-      "api": "https://gh-proxy.org/https://raw.github.com/tly824/tvbox/master/lib/drpy2.min.js",
-      "ext": "https://gh-proxy.org/https://raw.github.com/tly824/tvbox/master/js/drpy.js",
+      "api": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/libs/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/dr_py/js/%E9%87%91%E7%89%8C%E5%BD%B1%E8%A7%86.js",
+      "speed": 317.99
+    },
+    {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "腾云驾雾[官](drpy_t3)",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.github.com/tly824/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
       "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "speed": 354.91
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://gh-proxy.org/https://raw.github.com/tly824/hipy-server/master/app/t4/files/drpy_js/%E8%85%BE%E4%BA%91%E9%A9%BE%E9%9B%BE%5B%E5%AE%98%5D.js",
+      "speed": 295.34
     },
     {
       "key": "èçjs",
@@ -118,7 +119,68 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "speed": 331.72
+      "speed": 269.42
+    },
+    {
+      "key": "钛金影视",
+      "name": "钛金影视",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.github.com/tly824/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https://raw.github.com/tly824/tvbox/master/js/drpy.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "speed": 255.69
+    },
+    {
+      "key": "drpy_js_童趣",
+      "name": "💥童趣(少儿)",
+      "type": 3,
+      "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js/童趣.js",
+      "speed": 191.33
+    },
+    {
+      "key": "腾讯视频",
+      "name": "腾讯视频",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.github.com/tly824/TvBoxx/master/js/drpy2.min.js",
+      "ext": "https://gh-proxy.org/https://raw.github.com/tly824/TvBoxx/master/js/qq.js",
+      "speed": 165.11
+    },
+    {
+      "key": "py聚合短剧",
+      "name": "短剧丨聚合短剧",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tomorrow/refs/heads/master/py/短剧聚合2.py",
+      "changeable": 1,
+      "speed": 164.1
+    },
+    {
+      "key": "七猫",
+      "name": "七猫｜短剧",
+      "type": 3,
+      "api": "https://mpimg.cn/down.php/fd932d46caef0995cb0b6936f0413946.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 150.9
+    },
+    {
+      "key": "腾腾",
+      "name": "🐧腾腾┃JX",
+      "jar": "https://pan.szfx.top/down.php/c5c866ed8f092c350477cf7727137bd3.jar",
+      "type": 3,
+      "api": "http://rihou.cc:88/js/drpy2.min.js",
+      "url": "http://127.0.0.1:6677/proxy?do=parse&key=687474703a2f2f3130332e34352e3136322e3230373a31333133312fe5b08fe8998ee696912e7068703f75726c3d2c687474703a2f2f34332e3133392e39342e39363a383836362f6170692f3f6b65793d37653637616233333165653235353636346632393839636132313731633264642675726c3d2c68747470733a2f2f6e6969756d612e71692d73696d706c652e746f702f6e6e2e7068703f75726c3d&filters=mall,mp4&url=",
+      "ext": "http://rihou.cc:88/js/腾腾.js",
+      "speed": 145.6
     },
     {
       "key": "æé±¼js",
@@ -135,67 +197,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "speed": 299.22
-    },
-    {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "腾云驾雾[官](drpy_t3)",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.github.com/tly824/hipy-server/master/app/t4/files/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "https://gh-proxy.org/https://raw.github.com/tly824/hipy-server/master/app/t4/files/drpy_js/%E8%85%BE%E4%BA%91%E9%A9%BE%E9%9B%BE%5B%E5%AE%98%5D.js",
-      "speed": 232.1
-    },
-    {
-      "key": "drpy_js_童趣",
-      "name": "💥童趣(少儿)",
-      "type": 3,
-      "api": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js",
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js/童趣.js",
-      "speed": 196.08
-    },
-    {
-      "key": "py聚合短剧",
-      "name": "短剧丨聚合短剧",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tomorrow/refs/heads/master/py/短剧聚合2.py",
-      "changeable": 1,
-      "speed": 181.91
-    },
-    {
-      "key": "七猫",
-      "name": "七猫｜短剧",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/fd932d46caef0995cb0b6936f0413946.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 148.87
-    },
-    {
-      "key": "腾讯视频",
-      "name": "腾讯视频",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.github.com/tly824/TvBoxx/master/js/drpy2.min.js",
-      "ext": "https://gh-proxy.org/https://raw.github.com/tly824/TvBoxx/master/js/qq.js",
-      "speed": 136.2
-    },
-    {
-      "key": "哔幕",
-      "name": "哔哩｜X",
-      "type": 3,
-      "api": "http://nn.4688888.xyz/js/drpy2.min.js",
-      "ext": "http://nn.4688888.xyz/js/哔哩视频.js",
-      "speed": 103.55
+      "speed": 142.29
     },
     {
       "key": "裤佬央视PY",
@@ -207,34 +209,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2,
-      "speed": 95.28
-    },
-    {
-      "key": "短剧｜聚合",
-      "name": "聚合剧➋",
-      "api": "http://nn.4688888.xyz/py/短剧聚合.py",
-      "quickSearch": 1,
-      "searchable": 1,
-      "filterable": 1,
-      "genre": "shortdrama",
-      "type": 3,
-      "style": {
-        "type": "rect",
-        "ratio": 1.485
-      },
-      "speed": 91.57
-    },
-    {
-      "key": "推特",
-      "name": "推特",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fish2018/lib/main/py/py_推特.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 0,
-      "ext": "proxy",
-      "speed": 89.76
+      "speed": 113.04
     },
     {
       "key": "pornhub",
@@ -246,18 +221,15 @@
       "filterable": 0,
       "changeable": 0,
       "ext": "proxy",
-      "speed": 86.32
+      "speed": 103.37
     },
     {
-      "key": "裤佬七星短剧",
-      "name": "👖裤佬丨七星丨短剧",
+      "key": "MG",
+      "name": "芒果TV[追剧]",
       "type": 3,
-      "api": "https://mpimg.cn/down.php/48e9d346cdf6da376c53136693bec95a.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 80.47
+      "api": "https://file.icve.com.cn/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
+      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20251023002108-a4795930ec.js",
+      "speed": 96.69
     },
     {
       "key": "裤佬EmbyJS",
@@ -267,54 +239,19 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "speed": 78.06
+      "speed": 94.5
     },
     {
-      "key": "MG",
-      "name": "芒果TV[追剧]",
+      "key": "推特",
+      "name": "推特",
       "type": 3,
-      "api": "https://file.icve.com.cn/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
-      "ext": "https://cdn.waimaimingtang.com/file/images/bwc/20251023002108-a4795930ec.js",
-      "speed": 72.04
-    },
-    {
-      "key": "耐看",
-      "name": "👀耐看┃",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/64822fa89d2b95024b3d621b379dc166.py",
-      "speed": 69.5
-    },
-    {
-      "key": "xhm",
-      "name": "xhm",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fish2018/lib/main/py/py_Xhm.py",
+      "api": "https://raw.githubusercontent.com/fish2018/lib/main/py/py_推特.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
       "ext": "proxy",
-      "speed": 68.51
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/at/json",
-      "key": "极速",
-      "type": 1,
-      "name": "🍏极速",
-      "speed": 59.96
-    },
-    {
-      "key": "gay",
-      "name": "🧿gay┃资源",
-      "type": 1,
-      "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 54.51
+      "speed": 76.29
     },
     {
       "key": "极速资源",
@@ -358,7 +295,38 @@
       "header": {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
       },
-      "speed": 52.8
+      "speed": 68.69
+    },
+    {
+      "key": "裤佬七星短剧",
+      "name": "👖裤佬丨七星丨短剧",
+      "type": 3,
+      "api": "https://mpimg.cn/down.php/48e9d346cdf6da376c53136693bec95a.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 68.43
+    },
+    {
+      "key": "旺旺资源",
+      "name": "旺旺资源",
+      "type": 1,
+      "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 54.91
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/at/json",
+      "key": "极速",
+      "type": 1,
+      "name": "🍏极速",
+      "speed": 54.01
     },
     {
       "searchable": 1,
@@ -368,7 +336,40 @@
       "key": "黄仓",
       "type": 1,
       "name": "🍊黄仓",
-      "speed": 49.61
+      "speed": 54.01
+    },
+    {
+      "key": "裤佬永乐JS",
+      "name": "👖裤佬丨永乐丨JS",
+      "type": 3,
+      "api": "https://mpimg.cn/down.php/0338609bd59d7b27226f5a269ec97936.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1,
+      "speed": 53.31
+    },
+    {
+      "key": "xhm",
+      "name": "xhm",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fish2018/lib/main/py/py_Xhm.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "proxy",
+      "speed": 52.25
+    },
+    {
+      "key": "最大资源",
+      "name": "最大资源",
+      "type": 1,
+      "api": "https://api.zuidapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 50.17
     },
     {
       "key": "lav",
@@ -380,226 +381,51 @@
       "filterable": 0,
       "changeable": 0,
       "ext": "proxy",
-      "speed": 44.39
+      "speed": 48.44
     },
     {
-      "key": "率率",
-      "name": "影视 • 率率[直连]",
+      "key": "gay",
+      "name": "🧿gay┃资源",
       "type": 1,
-      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "categories": [
-        "国产剧",
-        "韩剧",
-        "日剧",
-        "港剧",
-        "台剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "战争片",
-        "恐怖片",
-        "剧情片",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "大陆综艺",
-        "日韩综艺"
-      ],
-      "speed": 44.16
+      "filterable": 1,
+      "speed": 46.92
     },
     {
-      "key": "旺旺资源",
-      "name": "旺旺资源",
-      "type": 1,
-      "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 43.2
+      "key": "耐看",
+      "name": "👀耐看┃",
+      "type": 3,
+      "api": "https://mpimg.cn/down.php/64822fa89d2b95024b3d621b379dc166.py",
+      "speed": 46.22
     },
     {
-      "key": "虎牙资源",
-      "name": "烂大街",
+      "key": "量子资源",
+      "name": "🥑量子资源",
       "type": 1,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/",
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
-        "内地剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "古装片",
-        "犯罪片",
-        "惊悚片",
-        "冒险片",
-        "悬疑片",
-        "其他剧",
-        "邵氏电影"
-      ],
-      "speed": 42.78
-    },
-    {
-      "key": "无尽ME",
-      "name": "无尽ME",
-      "type": 1,
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 41.49
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.ddapi.cc/api.php/provide/vod/at/json",
-      "key": "滴滴",
-      "type": 1,
-      "name": "🍊滴滴",
-      "speed": 40.44
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.souavzyw.net/api.php/provide/vod/",
-      "key": "搜片",
-      "type": 1,
-      "name": "🍊搜片",
-      "speed": 39.91
-    },
-    {
-      "key": "暴风资源",
-      "name": "暴风资源",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 38.27
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://slapibf.com/api.php/provide/vod/",
-      "key": "森林",
-      "type": 1,
-      "name": "🍊森林",
-      "speed": 36.91
-    },
-    {
-      "key": "非凡",
-      "name": "影视 • 非凡[直连]",
-      "type": 1,
-      "api": "http://ffzy.tv/api.php/provide/vod/",
-      "searchable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
         "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "记录片",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
         "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫"
-      ],
-      "speed": 36.2
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "http://chujia.cc/api.php/provide/vod/from/m3u8/",
-      "key": "精东",
-      "type": 1,
-      "name": "🍊精东",
-      "speed": 35.71
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://xingba222.com/api.php/provide/vod",
-      "key": "杏吧",
-      "type": 1,
-      "name": "🍊杏吧",
-      "speed": 34.31
-    },
-    {
-      "key": "光速资源",
-      "name": "🎀光速┃采集",
-      "type": 1,
-      "api": "http://api.guangsuapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "电影",
-        "电视剧",
-        "综艺",
+        "泰国剧",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
         "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
+        "体育",
         "剧情片",
-        "恐怖片",
-        "战争片",
-        "大陆剧",
-        "欧美剧",
-        "港澳剧",
-        "韩剧",
-        "动漫电影",
-        "日剧",
-        "台湾剧",
-        "泰剧",
-        "记录片",
-        "伦理片",
-        "体育赛事",
-        "短剧"
+        "动作片",
+        "爱情片",
+        "喜剧片",
+        "伦理片"
       ],
-      "speed": 33.16
+      "speed": 40.68
     },
     {
       "searchable": 1,
@@ -609,65 +435,17 @@
       "key": "豆豆",
       "type": 1,
       "name": "🍊豆豆",
-      "speed": 32.43
+      "speed": 39.74
     },
     {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-      "key": "光速",
+      "key": "csp_xml_量子资源",
+      "name": "🐝量子资源",
       "type": 1,
-      "name": "🍏光速",
-      "speed": 32.1
-    },
-    {
-      "key": "去看吧",
-      "name": "🌾去看动漫",
-      "type": 3,
-      "api": "https://www.yingm.cc/dm/js/drpy.min.js",
-      "ext": "https://www.yingm.cc/dm/js/%E5%8E%BB%E7%9C%8B%E5%90%A7.js",
-      "speed": 29.13
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.xjzyapi.com/provide/vod",
-      "key": "小鸡",
-      "type": 1,
-      "name": "🍊小鸡",
-      "speed": 28.53
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "key": "爱坤",
-      "type": 1,
-      "name": "🍏爱坤",
-      "speed": 28.5
-    },
-    {
-      "key": "U酷影视",
-      "name": "U酷影视",
-      "type": 0,
-      "api": "https://api.ukuapi88.com/api.php/provide/vod/from/ukm3u8/at/xml",
+      "api": "http://cj.lziapi.com/api.php/provide/vod/?ac=list",
+      "playUrl": "",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "speed": 28.28
-    },
-    {
-      "key": "界影PY",
-      "name": "👖裤佬丨界影丨PY",
-      "api": "https://mpimg.cn/down.php/4440a9a56b6d222647a856452eefb21a.py",
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1,
-      "type": 3,
-      "speed": 27.18
+      "speed": 39.06
     },
     {
       "key": "AV资源",
@@ -680,18 +458,74 @@
         "ratio": 1.33
       },
       "changeable": 1,
-      "speed": 26.55
+      "speed": 36.79
     },
     {
-      "key": "souav",
-      "name": "souav | 采集",
+      "key": "界影PY",
+      "name": "👖裤佬丨界影丨PY",
+      "api": "https://mpimg.cn/down.php/4440a9a56b6d222647a856452eefb21a.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3,
+      "speed": 36.16
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "key": "爱坤",
       "type": 1,
-      "api": "https://api.souavzy.vip/api.php/provide/vod/?ac=list",
-      "playUrl": "https://jiexi.souavzyw.top/m3u8/?url=",
+      "name": "🍏爱坤",
+      "speed": 34.68
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://vnzyz.com/api.php/provide/vod",
+      "key": "越南",
+      "type": 1,
+      "name": "🍊越南",
+      "speed": 34.48
+    },
+    {
+      "key": "去看吧",
+      "name": "🌾去看动漫",
+      "type": 3,
+      "api": "https://www.yingm.cc/dm/js/drpy.min.js",
+      "ext": "https://www.yingm.cc/dm/js/%E5%8E%BB%E7%9C%8B%E5%90%A7.js",
+      "speed": 34.24
+    },
+    {
+      "key": "无尽ME",
+      "name": "无尽ME",
+      "type": 1,
+      "api": "https://api.wujinapi.me/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "speed": 26.44
+      "speed": 33.86
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://19q.cc/api.php/provide/vod",
+      "key": "19",
+      "type": 1,
+      "name": "🍊19",
+      "speed": 33.82
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://slapibf.com/api.php/provide/vod/",
+      "key": "森林",
+      "type": 1,
+      "name": "🍊森林",
+      "speed": 33.36
     },
     {
       "key": "量子",
@@ -726,117 +560,7 @@
         "港台动漫",
         "海外动漫"
       ],
-      "speed": 26.1
-    },
-    {
-      "key": "天涯API",
-      "name": "天涯API",
-      "type": 1,
-      "api": "https://tyyszyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 25.44
-    },
-    {
-      "key": "dadiapi.com",
-      "name": "成人01",
-      "type": 0,
-      "api": "http://dadiapi.com/api.php",
-      "searchable": 1,
-      "recordable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "header": {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
-      },
-      "speed": 25.38
-    },
-    {
-      "key": "天涯采集",
-      "name": "影视 • 天涯",
-      "type": 1,
-      "api": "http://tyyszy.com/api.php/provide/vod",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "speed": 24.56
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/",
-      "key": "优酷",
-      "type": 1,
-      "name": "🍏优酷",
-      "speed": 24.45
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://vnzyz.com/api.php/provide/vod",
-      "key": "越南",
-      "type": 1,
-      "name": "🍊越南",
-      "speed": 23.79
-    },
-    {
-      "key": "奶香香",
-      "name": "奶香 | 采集",
-      "type": 1,
-      "api": "https://naixxzy.com/api.php/provide/vod/",
-      "quickSearch": 1,
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "proxy",
-      "speed": 23.76
-    },
-    {
-      "key": "EmbyJS",
-      "name": "Emby丨JS",
-      "type": 3,
-      "api": "https://17264.kstore.space/Emby.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "speed": 23.53
-    },
-    {
-      "key": "量子资源",
-      "name": "🥑量子资源",
-      "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod/",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "国产剧",
-        "国产动漫",
-        "泰国剧",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "韩国剧",
-        "日本剧",
-        "动漫",
-        "体育",
-        "剧情片",
-        "动作片",
-        "爱情片",
-        "喜剧片",
-        "伦理片"
-      ],
-      "speed": 23.49
+      "speed": 31.75
     },
     {
       "key": "天涯资源",
@@ -846,56 +570,95 @@
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 23.42
+      "speed": 30.95
+    },
+    {
+      "key": "暴風",
+      "name": "影视 • 暴風[直连]",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "speed": 30.87
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://api.heiapi.cc/api.php/provide/vod/",
-      "key": "嘿嘿",
+      "api": "https://api.souavzyw.net/api.php/provide/vod/",
+      "key": "搜片",
       "type": 1,
-      "name": "🍊嘿嘿",
-      "speed": 23.19
+      "name": "🍊搜片",
+      "speed": 30.83
+    },
+    {
+      "key": "天涯API",
+      "name": "天涯API",
+      "type": 1,
+      "api": "https://tyyszyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 29.51
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "http://zuidazy.me/api.php/provide/vod/",
-      "key": "最大",
+      "api": "https://tyyszyapi.com/api.php/provide/vod/",
+      "key": "旺旺",
       "type": 1,
-      "name": "🍏最大",
-      "speed": 23.17
+      "name": "🍏旺旺",
+      "speed": 27.39
     },
     {
-      "key": "csp_xml_量子资源",
-      "name": "🐝量子资源",
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.ddapi.cc/api.php/provide/vod/at/json",
+      "key": "滴滴",
       "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod/?ac=list",
-      "playUrl": "",
+      "name": "🍊滴滴",
+      "speed": 27.2
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "key": "光速",
+      "type": 1,
+      "name": "🍏光速",
+      "speed": 25.91
+    },
+    {
+      "key": "鸭鸭资源",
+      "name": "鸭鸭资源",
+      "type": 1,
+      "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 22.41
+      "speed": 25.18
     },
     {
-      "key": "dadi",
-      "name": "🧿量子┃资源",
+      "key": "souav",
+      "name": "souav | 采集",
       "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://api.souavzy.vip/api.php/provide/vod/?ac=list",
+      "playUrl": "https://jiexi.souavzyw.top/m3u8/?url=",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "speed": 22.23
+      "speed": 25.1
     },
     {
-      "key": "无尽CC",
-      "name": "无尽CC",
-      "type": 1,
-      "api": "https://api.wujinapi.cc/api.php/provide/vod",
       "searchable": 1,
+      "search": 1,
       "quickSearch": 1,
-      "speed": 22.17
+      "api": "http://chujia.cc/api.php/provide/vod/from/m3u8/",
+      "key": "精东",
+      "type": 1,
+      "name": "🍊精东",
+      "speed": 24.18
     },
     {
       "key": "wsycj",
@@ -947,26 +710,24 @@
         "擦边短剧",
         "漫剧"
       ],
-      "speed": 22.03
+      "speed": 24.15
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://apilj.com/api.php/provide/vod/at/json/",
-      "key": "辣椒",
+      "api": "https://api.huosuapi.cc/api.php/provide/vod/",
+      "key": "火速",
       "type": 1,
-      "name": "🍊辣椒🪜",
-      "speed": 21.86
+      "name": "🍊火速",
+      "speed": 23.75
     },
     {
-      "key": "iKun资源",
-      "name": "iKun资源",
-      "type": 0,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 21.77
+      "key": "暴风",
+      "name": "暴风",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "speed": 23.63
     },
     {
       "searchable": 1,
@@ -976,51 +737,56 @@
       "key": "新浪",
       "type": 1,
       "name": "🍏新浪",
-      "speed": 21.65
+      "speed": 23.42
     },
     {
-      "key": "大地专场",
-      "name": "🧿大地┃采集",
-      "type": 0,
-      "api": "https://dadiapi.com/api.php",
+      "key": "豪华资源",
+      "name": "豪华资源",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod",
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "日韩无码",
-        "强奸乱伦",
-        "欧美精品",
-        "国产精品",
-        "人妻系列",
-        "中文字幕",
-        "动漫精品",
-        "伦理影片",
-        "日韩精品",
-        "制服诱惑",
-        "自拍偷拍",
-        "AV明星",
-        "3P合辑",
-        "巨乳系列",
-        "颜射系列",
-        "口交视频",
-        "自慰系列",
-        "SM重味",
-        "教师学生",
-        "大秀视频",
-        "AV明星1"
-      ],
-      "speed": 21.64
+      "speed": 23.39
+    },
+    {
+      "key": "奶香香",
+      "name": "奶香 | 采集",
+      "type": 1,
+      "api": "https://naixxzy.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "proxy",
+      "speed": 23.37
+    },
+    {
+      "key": "牛牛资源",
+      "name": "牛牛资源",
+      "type": 0,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 22.48
+    },
+    {
+      "key": "暴风资源",
+      "name": "暴风资源",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 22.38
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://ckzy.me/api.php/provide/vod/",
-      "key": "CK",
+      "api": "http://zuidazy.me/api.php/provide/vod/",
+      "key": "最大",
       "type": 1,
-      "name": "🍊CK",
-      "speed": 21.14
+      "name": "🍏最大",
+      "speed": 21.84
     },
     {
       "key": "*番号资源",
@@ -1030,7 +796,148 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "speed": 21.12
+      "speed": 21.74
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "key": "牛牛",
+      "type": 1,
+      "name": "🍏牛牛",
+      "speed": 21.18
+    },
+    {
+      "key": "闪电API",
+      "name": "闪电API",
+      "type": 1,
+      "api": "https://sdzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 21.01
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://xingba222.com/api.php/provide/vod",
+      "key": "杏吧",
+      "type": 1,
+      "name": "🍊杏吧",
+      "speed": 20.87
+    },
+    {
+      "key": "EmbyJS",
+      "name": "Emby丨JS",
+      "type": 3,
+      "api": "https://17264.kstore.space/Emby.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "speed": 20.73
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod",
+      "key": "番号",
+      "type": 1,
+      "name": "🍊番号",
+      "speed": 20.68
+    },
+    {
+      "key": "dadiapi.com",
+      "name": "成人01",
+      "type": 0,
+      "api": "http://dadiapi.com/api.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "header": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "User-Agent": "Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"
+      },
+      "speed": 20.04
+    },
+    {
+      "key": "iKun资源",
+      "name": "iKun资源",
+      "type": 0,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 19.99
+    },
+    {
+      "key": "7ced0073619101d397b5c86fc3578ed4",
+      "name": "💥┃火狐2K┃有广",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "speed": 19.97
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod/",
+      "key": "玉兔",
+      "type": 1,
+      "name": "🍊玉兔",
+      "speed": 19.89
+    },
+    {
+      "key": "dadi",
+      "name": "🧿量子┃资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 19.81
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://apidanaizi.com/api.php/provide/vod",
+      "key": "大奶",
+      "type": 1,
+      "name": "🍊大奶",
+      "speed": 19.74
+    },
+    {
+      "key": "无尽NET",
+      "name": "无尽NET",
+      "type": 1,
+      "api": "https://api.wujinapi.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 19.57
+    },
+    {
+      "key": "小湿妹",
+      "name": "湿妹 | 采集",
+      "type": 0,
+      "api": "http://www.afasu.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "proxy",
+      "speed": 19.49
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.wujinapi.com/api.php/provide/vod/",
+      "key": "无尽",
+      "type": 1,
+      "name": "🍏无尽",
+      "speed": 19.18
     },
     {
       "key": "IK",
@@ -1092,154 +999,27 @@
       ],
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 21.04
-    },
-    {
-      "key": "暴风",
-      "name": "暴风",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "speed": 20.22
-    },
-    {
-      "key": "闪电API",
-      "name": "闪电API",
-      "type": 1,
-      "api": "https://sdzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 20.21
-    },
-    {
-      "key": "暴風",
-      "name": "影视 • 暴風[直连]",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "changeable": 1,
-      "speed": 20.18
+      "speed": 18.96
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-      "key": "红牛",
+      "api": "https://api.heiapi.cc/api.php/provide/vod/",
+      "key": "嘿嘿",
       "type": 1,
-      "name": "🍏红牛",
-      "speed": 20.15
-    },
-    {
-      "key": "小湿妹",
-      "name": "湿妹 | 采集",
-      "type": 0,
-      "api": "http://www.afasu.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "proxy",
-      "speed": 19.64
-    },
-    {
-      "key": "7ced0073619101d397b5c86fc3578ed4",
-      "name": "💥┃火狐2K┃有广",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/",
-      "speed": 19.54
+      "name": "🍊嘿嘿",
+      "speed": 18.78
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://apidanaizi.com/api.php/provide/vod",
-      "key": "大奶",
+      "api": "https://apilj.com/api.php/provide/vod/at/json/",
+      "key": "辣椒",
       "type": 1,
-      "name": "🍊大奶",
-      "speed": 19.02
-    },
-    {
-      "key": "豪华资源",
-      "name": "豪华资源",
-      "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 18.73
-    },
-    {
-      "key": "无尽NET",
-      "name": "无尽NET",
-      "type": 1,
-      "api": "https://api.wujinapi.net/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 18.52
-    },
-    {
-      "key": "最大资源",
-      "name": "最大资源",
-      "type": 1,
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 18.39
-    },
-    {
-      "key": "鸭鸭资源",
-      "name": "鸭鸭资源",
-      "type": 1,
-      "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 18.35
-    },
-    {
-      "key": "杏吧资源",
-      "name": "杏吧资源",
-      "type": 0,
-      "api": "https://xingba222.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 0,
-      "speed": 18.23
-    },
-    {
-      "key": "牛牛资源",
-      "name": "牛牛资源",
-      "type": 0,
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 18.16
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
-      "key": "牛牛",
-      "type": 1,
-      "name": "🍏牛牛",
-      "speed": 18.07
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "http://fhapi9.com/api.php/provide/vod",
-      "key": "番号",
-      "type": 1,
-      "name": "🍊番号",
-      "speed": 17.84
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.wsyzy.net/api.php/provide/vod/",
-      "key": "无印",
-      "type": 1,
-      "name": "🍏无印",
-      "speed": 17.75
+      "name": "🍊辣椒🪜",
+      "speed": 18.48
     },
     {
       "searchable": 1,
@@ -1249,99 +1029,139 @@
       "key": "鸭鸭",
       "type": 1,
       "name": "🍏鸭鸭",
-      "speed": 17.52
+      "speed": 18.23
     },
     {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://tyyszyapi.com/api.php/provide/vod/",
-      "key": "旺旺",
-      "type": 1,
-      "name": "🍏旺旺",
-      "speed": 17.19
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
-      "key": "火狐",
-      "type": 1,
-      "name": "🍏火狐",
-      "speed": 17.07
-    },
-    {
-      "status": false,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
-      "key": "樱花",
-      "type": 1,
-      "name": "🍏樱花",
-      "speed": 16.56
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://www.heiliaozyapi.com/api.php/provide/vod/",
-      "key": "黑料",
-      "type": 1,
-      "name": "🍊黑料",
-      "speed": 16.34
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.wujinapi.com/api.php/provide/vod/",
-      "key": "无尽",
-      "type": 1,
-      "name": "🍏无尽",
-      "speed": 16.11
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://19q.cc/api.php/provide/vod",
-      "key": "19",
-      "type": 1,
-      "name": "🍊19",
-      "speed": 15.97
-    },
-    {
-      "key": "牛牛影视",
-      "name": "牛牛影视",
-      "type": 1,
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/json",
+      "key": "闪电资源",
+      "name": "闪电资源",
+      "type": 0,
+      "api": "https://shandianzy.com/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "speed": 15.97
+      "speed": 18.17
     },
     {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://Naixxzy.com/api.php/provide/vod/",
-      "key": "奶香",
+      "key": "天涯采集",
+      "name": "影视 • 天涯",
       "type": 1,
-      "name": "🍊奶香🪜",
-      "speed": 15.91
-    },
-    {
-      "key": "裤佬永乐JS",
-      "name": "👖裤佬丨永乐丨JS",
-      "type": 3,
-      "api": "https://mpimg.cn/down.php/0338609bd59d7b27226f5a269ec97936.js",
+      "api": "http://tyyszy.com/api.php/provide/vod",
       "style": {
         "type": "rect",
         "ratio": 1.33
       },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "changeable": 1,
-      "speed": 15.59
+      "playerType": 2,
+      "speed": 18.12
+    },
+    {
+      "key": "大地专场",
+      "name": "🧿大地┃采集",
+      "type": 0,
+      "api": "https://dadiapi.com/api.php",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "日韩无码",
+        "强奸乱伦",
+        "欧美精品",
+        "国产精品",
+        "人妻系列",
+        "中文字幕",
+        "动漫精品",
+        "伦理影片",
+        "日韩精品",
+        "制服诱惑",
+        "自拍偷拍",
+        "AV明星",
+        "3P合辑",
+        "巨乳系列",
+        "颜射系列",
+        "口交视频",
+        "自慰系列",
+        "SM重味",
+        "教师学生",
+        "大秀视频",
+        "AV明星1"
+      ],
+      "speed": 18.03
+    },
+    {
+      "key": "光速资源",
+      "name": "🎀光速┃采集",
+      "type": 1,
+      "api": "http://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "剧情片",
+        "恐怖片",
+        "战争片",
+        "大陆剧",
+        "欧美剧",
+        "港澳剧",
+        "韩剧",
+        "动漫电影",
+        "日剧",
+        "台湾剧",
+        "泰剧",
+        "记录片",
+        "伦理片",
+        "体育赛事",
+        "短剧"
+      ],
+      "speed": 17.51
+    },
+    {
+      "key": "率率",
+      "name": "影视 • 率率[直连]",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "categories": [
+        "国产剧",
+        "韩剧",
+        "日剧",
+        "港剧",
+        "台剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "战争片",
+        "恐怖片",
+        "剧情片",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "大陆综艺",
+        "日韩综艺"
+      ],
+      "speed": 17.28
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://155api.com/api.php/provide/vod/",
+      "key": "155",
+      "type": 1,
+      "name": "🍊155",
+      "speed": 17.17
     },
     {
       "searchable": 1,
@@ -1351,36 +1171,103 @@
       "key": "OK",
       "type": 1,
       "name": "🍏OK",
-      "speed": 15.57
+      "speed": 17.02
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://apiyutu.com/api.php/provide/vod/",
-      "key": "玉兔",
+      "api": "https://api.xjzyapi.com/provide/vod",
+      "key": "小鸡",
       "type": 1,
-      "name": "🍊玉兔",
-      "speed": 15.33
+      "name": "🍊小鸡",
+      "speed": 16.8
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://api.huosuapi.cc/api.php/provide/vod/",
-      "key": "火速",
+      "api": "https://hhzyapi.com/api.php/provide/vod/at/json",
+      "key": "火狐",
       "type": 1,
-      "name": "🍊火速",
-      "speed": 15.28
+      "name": "🍏火狐",
+      "speed": 16.67
     },
     {
-      "key": "闪电资源",
-      "name": "闪电资源",
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/",
+      "key": "无印",
+      "type": 1,
+      "name": "🍏无印",
+      "speed": 16.39
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://Naixxzy.com/api.php/provide/vod/",
+      "key": "奶香",
+      "type": 1,
+      "name": "🍊奶香🪜",
+      "speed": 15.93
+    },
+    {
+      "key": "快车资源",
+      "name": "快车资源",
+      "type": 1,
+      "api": "https://caiji.kuaichezy.org/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 15.89
+    },
+    {
+      "key": "无尽CC",
+      "name": "无尽CC",
+      "type": 1,
+      "api": "https://api.wujinapi.cc/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 15.44
+    },
+    {
+      "key": "*91麻豆",
+      "name": "*91麻豆",
+      "type": 1,
+      "api": "https://91md.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "speed": 15.43
+    },
+    {
+      "key": "鸭鸭资源2",
+      "name": "鸭鸭资源2",
       "type": 0,
-      "api": "https://shandianzy.com/api.php/provide/vod/at/xml",
+      "api": "https://yayazy2.com/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 14.89
+      "speed": 15.06
+    },
+    {
+      "key": "牛牛影视",
+      "name": "牛牛影视",
+      "type": 1,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 14.87
+    },
+    {
+      "key": "U酷影视",
+      "name": "U酷影视",
+      "type": 0,
+      "api": "https://api.ukuapi88.com/api.php/provide/vod/from/ukm3u8/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 14.59
     },
     {
       "searchable": 1,
@@ -1390,7 +1277,17 @@
       "key": "鸡坤",
       "type": 1,
       "name": "🍊鸡坤",
-      "speed": 14.38
+      "speed": 14.51
+    },
+    {
+      "key": "*乐播资源",
+      "name": "🔞乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "speed": 14.33
     },
     {
       "key": "U酷资源",
@@ -1399,7 +1296,27 @@
       "api": "https://api.ukuapi88.com/api.php/provide/vod/at/xmlsea",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 14.37
+      "speed": 13.99
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://jipinvip.com/api.php/provide/vod/",
+      "key": "极品",
+      "type": 1,
+      "name": "🍊极品",
+      "speed": 13.89
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://apilsbzy1.com/api.php/provide/vod/at/json",
+      "key": "色逼",
+      "type": 1,
+      "name": "🍊色逼",
+      "speed": 13.79
     },
     {
       "key": "柚子资源",
@@ -1446,45 +1363,132 @@
         "预告片",
         "体育"
       ],
-      "speed": 14.22
+      "speed": 13.65
     },
     {
-      "key": "快车资源",
-      "name": "快车资源",
-      "type": 1,
-      "api": "https://caiji.kuaichezy.org/api.php/provide/vod/?ac=list",
+      "key": "白嫖",
+      "name": "白嫖",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 14.01
+      "filterable": 1,
+      "speed": 13.61
+    },
+    {
+      "key": "建安采集",
+      "name": "影视 • 建安",
+      "type": 1,
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "speed": 13.34
+    },
+    {
+      "key": "黄AV",
+      "name": "黄AV",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 13.34
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://jipinvip.com/api.php/provide/vod/",
-      "key": "极品",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "key": "红牛",
       "type": 1,
-      "name": "🍊极品",
-      "speed": 13.97
+      "name": "🍏红牛",
+      "speed": 13.24
     },
     {
-      "key": "暴风资源2",
-      "name": "暴风资源2",
-      "type": 1,
-      "api": "http://bf.xoxowin86cisyap.com/api.php/provide/vod",
+      "key": "zp100",
+      "name": "🔞乐播",
+      "type": 0,
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 13.87
+      "filterable": 0,
+      "speed": 13.04
     },
     {
+      "key": "色播",
+      "name": "色播[js]",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/fish2018/lib/main/js/dr_py/js/sebo.js",
       "searchable": 1,
+      "changeable": 0,
+      "speed": 12.88
+    },
+    {
+      "key": "网络直播",
+      "name": "网络｜直播合集",
+      "type": 3,
+      "api": "https://gitee.com/fuleishu/fulei/raw/master/json/网络直播.py",
+      "speed": 12.87
+    },
+    {
+      "status": false,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/at/json",
-      "key": "乐播",
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
+      "key": "樱花",
       "type": 1,
-      "name": "🍊乐播",
-      "speed": 13.76
+      "name": "🍏樱花",
+      "speed": 12.71
+    },
+    {
+      "key": "虎牙资源",
+      "name": "烂大街",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "内地剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "古装片",
+        "犯罪片",
+        "惊悚片",
+        "冒险片",
+        "悬疑片",
+        "其他剧",
+        "邵氏电影"
+      ],
+      "speed": 12.6
     },
     {
       "key": "lebo",
@@ -1494,7 +1498,93 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "speed": 13.23
+      "speed": 12.58
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/",
+      "key": "优酷",
+      "type": 1,
+      "name": "🍏优酷",
+      "speed": 12.42
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/at/json",
+      "key": "乐播",
+      "type": 1,
+      "name": "🍊乐播",
+      "speed": 12.39
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "key": "猫眼",
+      "type": 1,
+      "name": "🍏猫眼",
+      "speed": 11.42
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.heiliaozyapi.com/api.php/provide/vod/",
+      "key": "黑料",
+      "type": 1,
+      "name": "🍊黑料",
+      "speed": 11.42
+    },
+    {
+      "key": "豆瓣采集3",
+      "name": "豆瓣采集3",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 11.35
+    },
+    {
+      "key": "杏吧资源",
+      "name": "杏吧资源",
+      "type": 0,
+      "api": "https://xingba222.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 0,
+      "speed": 11.26
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://ckzy.me/api.php/provide/vod/",
+      "key": "CK",
+      "type": 1,
+      "name": "🍊CK",
+      "speed": 11.17
+    },
+    {
+      "key": "魔都资源",
+      "name": "魔都资源",
+      "type": 1,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 11.12
+    },
+    {
+      "key": "OK资源",
+      "name": "OK资源",
+      "type": 0,
+      "api": "http://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 11.08
     },
     {
       "key": "淫水机",
@@ -1504,53 +1594,27 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "speed": 13.07
+      "speed": 11.04
     },
     {
-      "key": "鸭鸭资源2",
-      "name": "鸭鸭资源2",
-      "type": 0,
-      "api": "https://yayazy2.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 13.03
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://jyzyapi.com/provide/vod/",
-      "key": "金鹰",
+      "key": "豆瓣采集2",
+      "name": "豆瓣采集2",
       "type": 1,
-      "name": "🍏金鹰",
-      "speed": 13.01
-    },
-    {
-      "key": "ms4nii",
-      "name": "美少女",
-      "type": 0,
-      "api": "https://www.msnii.com/api/xml.php",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/json/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "speed": 12.67
+      "speed": 10.51
     },
     {
-      "key": "网络直播",
-      "name": "网络｜直播合集",
+      "key": "人人影视",
+      "name": "♨️人人｜影视",
       "type": 3,
-      "api": "https://gitee.com/fuleishu/fulei/raw/master/json/网络直播.py",
-      "speed": 12.61
-    },
-    {
-      "key": "*乐播资源",
-      "name": "🔞乐播资源",
-      "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "api": "https://17264.kstore.space/人人影视.py",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "speed": 12.52
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "speed": 10.44
     },
     {
       "key": "U酷资源風",
@@ -1584,72 +1648,7 @@
       "header": {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
       },
-      "speed": 11.79
-    },
-    {
-      "key": "*91麻豆",
-      "name": "*91麻豆",
-      "type": 1,
-      "api": "https://91md.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 0,
-      "speed": 11.59
-    },
-    {
-      "key": "OK资源",
-      "name": "OK资源",
-      "type": 0,
-      "api": "http://api.okzyw.net/api.php/provide/vod/from/okm3u8/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 11.45
-    },
-    {
-      "key": "猫眼影视",
-      "name": "猫眼影视",
-      "type": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/json",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 11.29
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://155api.com/api.php/provide/vod/",
-      "key": "155",
-      "type": 1,
-      "name": "🍊155",
-      "speed": 11.19
-    },
-    {
-      "key": "黄AV",
-      "name": "黄AV",
-      "type": 0,
-      "api": "https://www.pgxdy.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 11.01
-    },
-    {
-      "key": "建安采集",
-      "name": "影视 • 建安",
-      "type": 1,
-      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "speed": 10.96
+      "speed": 10.27
     },
     {
       "searchable": 1,
@@ -1659,25 +1658,16 @@
       "key": "番茄",
       "type": 1,
       "name": "🍊番茄🪜",
-      "speed": 10.65
+      "speed": 10.21
     },
     {
-      "key": "非凡资源2",
-      "name": "非凡资源2",
+      "key": "卧龙资源",
+      "name": "影视 • 卧龙资源[直连]",
       "type": 1,
-      "api": "http://ffzy5.tv/api.php/provide/vod",
+      "api": "https://wolongzyw.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
-      "quickSearch": 1,
-      "speed": 10.13
-    },
-    {
-      "key": "色播",
-      "name": "色播[js]",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/fish2018/lib/main/js/dr_py/js/sebo.js",
-      "searchable": 1,
-      "changeable": 0,
-      "speed": 9.99
+      "changeable": 1,
+      "speed": 9.88
     },
     {
       "key": "新浪资源",
@@ -1687,242 +1677,7 @@
       "playUrl": "",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 9.87
-    },
-    {
-      "key": "豆瓣采集3",
-      "name": "豆瓣采集3",
-      "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 9.86
-    },
-    {
-      "key": "白嫖",
-      "name": "白嫖",
-      "type": 0,
-      "api": "https://www.kxgav.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 9.53
-    },
-    {
-      "key": "卧龙资源",
-      "name": "影视 • 卧龙资源[直连]",
-      "type": 1,
-      "api": "https://wolongzyw.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "changeable": 1,
-      "speed": 9.23
-    },
-    {
-      "key": "豆瓣采集2",
-      "name": "豆瓣采集2",
-      "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/json/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 9.04
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "key": "猫眼",
-      "type": 1,
-      "name": "🍏猫眼",
-      "speed": 8.81
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://www.moduzy.com/api.php/provide/vod",
-      "key": "魔都",
-      "type": 1,
-      "name": "🍏魔都",
-      "speed": 8.69
-    },
-    {
-      "key": "茅台资源",
-      "name": "茅台资源",
-      "type": 1,
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 8.31
-    },
-    {
-      "key": "豆瓣资源",
-      "name": "豆瓣资源",
-      "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
-      "playUrl": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 8.19
-    },
-    {
-      "key": "金鹰影视",
-      "name": "金鹰影视",
-      "type": 0,
-      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 7.99
-    },
-    {
-      "key": "大地采集",
-      "name": "🔞大地av",
-      "type": 0,
-      "api": "https://dadiapi.com/apple_m3u8.php",
-      "playUrl": "https://play.dadiapi.com/watch?url=",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "speed": 7.93
-    },
-    {
-      "key": "魔都资源",
-      "name": "魔都资源",
-      "type": 1,
-      "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 7.75
-    },
-    {
-      "key": "裤佬JS聚合",
-      "name": "采集┃聚合",
-      "type": 4,
-      "api": "http://zhangqun1818.serv00.net/cj/cjjh.php?ac=list",
-      "searchable": 1,
-      "changeable": 1,
-      "speed": 7.71
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json",
-      "key": "虎牙",
-      "type": 1,
-      "name": "🍏虎牙",
-      "speed": 7.47
-    },
-    {
-      "key": "豆瓣影视",
-      "name": "豆瓣影视",
-      "type": 0,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 7.44
-    },
-    {
-      "key": "柚子影视",
-      "name": "柚子影视",
-      "type": 0,
-      "api": "https://api.yzzy-api.com/inc/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 6.94
-    },
-    {
-      "key": "精品资源站",
-      "name": "精品 | 采集",
-      "type": 1,
-      "api": "https://www.jingpinx.com/api.php/provide/vod/",
-      "ext": "proxy",
-      "speed": 6.87
-    },
-    {
-      "key": "雷子",
-      "name": "️​雷子",
-      "type": 3,
-      "api": "https://pan.29o.cn/down.php/2897f8eeef055ff1cde206111571d8fd.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "speed": 6.87
-    },
-    {
-      "key": "如意资源",
-      "name": "🌼如意┃影视🌼",
-      "type": 1,
-      "api": "http://cj.rycjapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 6.76
-    },
-    {
-      "key": "香奶儿",
-      "name": "香奶儿",
-      "type": 0,
-      "api": "https://www.gdlsp.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 6.6
-    },
-    {
-      "key": "人人影视",
-      "name": "♨️人人｜影视",
-      "type": 3,
-      "api": "https://17264.kstore.space/人人影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "speed": 6.51
-    },
-    {
-      "key": "zp100",
-      "name": "🔞乐播",
-      "type": 0,
-      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "speed": 6.49
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://www.jingpinx.com//api.php/provide/vod/",
-      "key": "精品",
-      "type": 1,
-      "name": "🍊精品🪜",
-      "speed": 6.46
-    },
-    {
-      "key": "量子影视",
-      "name": "量子影视",
-      "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 6.11
-    },
-    {
-      "key": "taohua",
-      "name": "🧿桃花┃资源",
-      "type": 1,
-      "api": "https://thzy1.me/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 5.82
+      "speed": 9.61
     },
     {
       "key": "暴风影视",
@@ -1933,27 +1688,159 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "speed": 5.72
-    },
-    {
-      "key": "茅台影视",
-      "name": "茅台影视",
-      "type": 1,
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/json",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "speed": 5.29
+      "speed": 9.58
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://thzy1.me/api.php/provide/vod/",
-      "key": "桃花",
+      "api": "https://jyzyapi.com/provide/vod/",
+      "key": "金鹰",
       "type": 1,
-      "name": "🍊桃花",
-      "speed": 5.28
+      "name": "🍏金鹰",
+      "speed": 9.43
+    },
+    {
+      "key": "豆瓣资源",
+      "name": "豆瓣资源",
+      "type": 1,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 9.33
+    },
+    {
+      "key": "非凡",
+      "name": "影视 • 非凡[直连]",
+      "type": 1,
+      "api": "http://ffzy.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫"
+      ],
+      "speed": 9.3
+    },
+    {
+      "key": "非凡资源2",
+      "name": "非凡资源2",
+      "type": 1,
+      "api": "http://ffzy5.tv/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 9.08
+    },
+    {
+      "key": "ms4nii",
+      "name": "美少女",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 8.99
+    },
+    {
+      "key": "猫眼影视",
+      "name": "猫眼影视",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod/from/mym3u8/at/json",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 8.64
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json",
+      "key": "虎牙",
+      "type": 1,
+      "name": "🍏虎牙",
+      "speed": 8.61
+    },
+    {
+      "key": "裤佬JS聚合",
+      "name": "采集┃聚合",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/cj/cjjh.php?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "speed": 7.79
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.moduzy.com/api.php/provide/vod",
+      "key": "魔都",
+      "type": 1,
+      "name": "🍏魔都",
+      "speed": 7.59
+    },
+    {
+      "key": "金鹰影视",
+      "name": "金鹰影视",
+      "type": 0,
+      "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 7.49
+    },
+    {
+      "key": "茅台资源",
+      "name": "茅台资源",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 7.47
+    },
+    {
+      "key": "爱奇艺资源",
+      "name": "爱奇艺资源",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 7.27
+    },
+    {
+      "key": "如意资源",
+      "name": "🌼如意┃影视🌼",
+      "type": 1,
+      "api": "http://cj.rycjapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 7.2
     },
     {
       "searchable": 1,
@@ -1963,7 +1850,107 @@
       "key": "蝙蝠",
       "type": 1,
       "name": "🍊蝙蝠",
-      "speed": 5.0
+      "speed": 7.16
+    },
+    {
+      "key": "柚子影视",
+      "name": "柚子影视",
+      "type": 0,
+      "api": "https://api.yzzy-api.com/inc/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 7.03
+    },
+    {
+      "key": "大地采集",
+      "name": "🔞大地av",
+      "type": 0,
+      "api": "https://dadiapi.com/apple_m3u8.php",
+      "playUrl": "https://play.dadiapi.com/watch?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "speed": 6.99
+    },
+    {
+      "key": "量子影视",
+      "name": "量子影视",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 6.76
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.jingpinx.com//api.php/provide/vod/",
+      "key": "精品",
+      "type": 1,
+      "name": "🍊精品🪜",
+      "speed": 6.7
+    },
+    {
+      "key": "精品资源站",
+      "name": "精品 | 采集",
+      "type": 1,
+      "api": "https://www.jingpinx.com/api.php/provide/vod/",
+      "ext": "proxy",
+      "speed": 6.68
+    },
+    {
+      "key": "香奶儿",
+      "name": "香奶儿",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 6.54
+    },
+    {
+      "key": "雷子",
+      "name": "️​雷子",
+      "type": 3,
+      "api": "https://pan.29o.cn/down.php/2897f8eeef055ff1cde206111571d8fd.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "speed": 6.47
+    },
+    {
+      "key": "豆瓣影视",
+      "name": "豆瓣影视",
+      "type": 0,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 6.32
+    },
+    {
+      "key": "taohua",
+      "name": "🧿桃花┃资源",
+      "type": 1,
+      "api": "https://thzy1.me/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 5.66
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://thzy1.me/api.php/provide/vod/",
+      "key": "桃花",
+      "type": 1,
+      "name": "🍊桃花",
+      "speed": 5.57
     },
     {
       "key": "豆瓣采集",
@@ -1972,34 +1959,27 @@
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 4.94
+      "speed": 5.41
     },
     {
-      "key": "色猫",
-      "name": "色猫 | 采集",
+      "key": "茅台影视",
+      "name": "茅台影视",
       "type": 1,
-      "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
-      "ext": "proxy",
-      "speed": 4.9
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "speed": 5.1
     },
     {
       "searchable": 1,
       "search": 1,
       "quickSearch": 1,
-      "api": "https://www.ysxq.cc/api.php/provide/vod",
-      "key": "星球",
+      "api": "https://shayuapi.com/api.php/provide/vod/",
+      "key": "鲨鱼",
       "type": 1,
-      "name": "🍏星球🪜",
-      "speed": 4.48
-    },
-    {
-      "key": "爱奇艺资源",
-      "name": "爱奇艺资源",
-      "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "speed": 4.47
+      "name": "🍊鲨鱼🪜",
+      "speed": 4.9
     },
     {
       "key": "速播资源",
@@ -2008,7 +1988,15 @@
       "api": "https://subocaiji.com/api.php/provide/vod/from/subyun/at/json",
       "searchable": 1,
       "quickSearch": 1,
-      "speed": 4.44
+      "speed": 4.37
+    },
+    {
+      "key": "色猫",
+      "name": "色猫 | 采集",
+      "type": 1,
+      "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
+      "ext": "proxy",
+      "speed": 4.34
     },
     {
       "searchable": 1,
@@ -2018,7 +2006,26 @@
       "key": "茅台",
       "type": 1,
       "name": "🍏茅台",
-      "speed": 4.33
+      "speed": 4.24
+    },
+    {
+      "searchable": 1,
+      "search": 1,
+      "quickSearch": 1,
+      "api": "https://www.ysxq.cc/api.php/provide/vod",
+      "key": "星球",
+      "type": 1,
+      "name": "🍏星球🪜",
+      "speed": 4.1
+    },
+    {
+      "key": "暴风资源2",
+      "name": "暴风资源2",
+      "type": 1,
+      "api": "http://bf.xoxowin86cisyap.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "speed": 3.81
     },
     {
       "searchable": 1,
@@ -2028,7 +2035,7 @@
       "key": "如意",
       "type": 1,
       "name": "🍏如意",
-      "speed": 3.62
+      "speed": 3.8
     },
     {
       "searchable": 1,
@@ -2038,31 +2045,7 @@
       "key": "速播",
       "type": 1,
       "name": "🍏速播",
-      "speed": 3.26
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://apilsbzy1.com/api.php/provide/vod/at/json",
-      "key": "色逼",
-      "type": 1,
-      "name": "🍊色逼",
-      "speed": 2.94
-    },
-    {
-      "key": "影视单播放",
-      "name": "影视播放",
-      "type": 4,
-      "api": "http://zhangqun1818.serv00.net/zh/2243.php",
-      "speed": 2.62
-    },
-    {
-      "key": "哔哩直播",
-      "name": "哔哩｜直播合集",
-      "type": 3,
-      "api": "https://gitee.com/fuleishu/fulei/raw/master/json/哔哩直播.py",
-      "speed": 2.62
+      "speed": 3.36
     },
     {
       "key": "芒果专场",
@@ -2074,7 +2057,56 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "proxy",
-      "speed": 2.13
+      "speed": 2.9
+    },
+    {
+      "key": "哔哩直播",
+      "name": "哔哩｜直播合集",
+      "type": 3,
+      "api": "https://gitee.com/fuleishu/fulei/raw/master/json/哔哩直播.py",
+      "speed": 2.74
+    },
+    {
+      "key": "影视单播放",
+      "name": "影视播放",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/zh/2243.php",
+      "speed": 2.27
+    },
+    {
+      "key": "(18+)JAV名优",
+      "name": "(18+)JAV名优",
+      "type": 0,
+      "api": "http://mygzycj.com/api.php?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "speed": 1.39
+    },
+    {
+      "key": "幸资源",
+      "name": "幸资源",
+      "type": 0,
+      "api": "https://xzybb1.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 0,
+      "speed": 0.8
+    },
+    {
+      "key": "豆瓣(js)",
+      "name": "💥豆瓣",
+      "type": 3,
+      "api": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js",
+      "searchable": 1,
+      "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js",
+      "speed": 0.59
+    },
+    {
+      "key": "影视播放",
+      "name": "老张影视",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/zh/2242.php",
+      "speed": 0.17
     },
     {
       "key": "儿童",
@@ -2089,42 +2121,7 @@
         "ratio": 1.597
       },
       "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
-      "speed": 1.97
-    },
-    {
-      "searchable": 1,
-      "search": 1,
-      "quickSearch": 1,
-      "api": "https://shayuapi.com/api.php/provide/vod/",
-      "key": "鲨鱼",
-      "type": 1,
-      "name": "🍊鲨鱼🪜",
-      "speed": 0.95
-    },
-    {
-      "key": "幸资源",
-      "name": "幸资源",
-      "type": 0,
-      "api": "https://xzybb1.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 0,
-      "speed": 0.76
-    },
-    {
-      "key": "豆瓣(js)",
-      "name": "💥豆瓣",
-      "type": 3,
-      "api": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/libs/drpy2.min.js",
-      "searchable": 1,
-      "ext": "https://www.agit.ai/fantaiying/dr_py/raw/branch/main/js/drpy.js",
-      "speed": 0.34
-    },
-    {
-      "key": "影视播放",
-      "name": "老张影视",
-      "type": 4,
-      "api": "http://zhangqun1818.serv00.net/zh/2242.php",
-      "speed": 0.18
+      "speed": 0.14
     },
     {
       "key": "采集集合",
@@ -5855,7 +5852,7 @@
       "ua": "okHttp/Mod-1.5.0.0"
     }
   ],
-  "update_time": "2026-10-02 19:04:58",
+  "update_time": "2026-10-02 23:00:17",
   "source_count": 183,
   "parse_count": 216,
   "live_count": 123
